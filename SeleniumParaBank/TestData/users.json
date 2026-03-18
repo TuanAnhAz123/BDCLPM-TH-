@@ -1,0 +1,56 @@
+{
+  "baseUrl": "https://parabank.parasoft.com/parabank/index.htm",
+  "users": [
+    {
+      "id": "user1",
+      "firstName": "John",
+      "lastName": "Doe",
+      "address": "123 Main Street",
+      "city": "Anytown",
+      "state": "CA",
+      "zipCode": "12345",
+      "phone": "123-456-7890",
+      "ssn": "123-45-6789",
+      "username": "john_auto_01",
+      "password": "Test@1234"
+    },
+    {
+      "id": "user2",
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "address": "456 Oak Avenue",
+      "city": "Springfield",
+      "state": "NY",
+      "zipCode": "67890",
+      "phone": "987-654-3210",
+      "ssn": "987-65-4321",
+      "username": "jane_auto_02",
+      "password": "Test@5678"
+    }
+  ],
+  "existingUser": {
+    "username": "john",
+    "password": "demo"
+  },
+  "transfer": {
+    "validAmount": "100",
+    "zeroAmount": "0",
+    "excessAmount": "999999999"
+  },
+  "billPay": {
+    "payeeName": "Electric Company",
+    "address": "1 Utility Blvd",
+    "city": "Powertown",
+    "state": "TX",
+    "zipCode": "75001",
+    "phone": "555-123-4567",
+    "account": "12345",
+    "verifyAccount": "12345",
+    "amount": "50"
+  },
+  "loan": {
+    "approvedAmount": "1000",
+    "deniedAmount": "9999999",
+    "downPayment": "100"
+  }
+}
